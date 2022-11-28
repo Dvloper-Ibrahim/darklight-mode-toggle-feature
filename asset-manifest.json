@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/darklight-mode-toggle-feature/static/css/main.f2f73d2e.css",
+    "main.js": "/darklight-mode-toggle-feature/static/js/main.e7a3ce82.js",
+    "static/js/787.c585812f.chunk.js": "/darklight-mode-toggle-feature/static/js/787.c585812f.chunk.js",
+    "index.html": "/darklight-mode-toggle-feature/index.html",
+    "main.f2f73d2e.css.map": "/darklight-mode-toggle-feature/static/css/main.f2f73d2e.css.map",
+    "main.e7a3ce82.js.map": "/darklight-mode-toggle-feature/static/js/main.e7a3ce82.js.map",
+    "787.c585812f.chunk.js.map": "/darklight-mode-toggle-feature/static/js/787.c585812f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2f73d2e.css",
+    "static/js/main.e7a3ce82.js"
+  ]
+}
