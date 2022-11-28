@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+}
+@media (max-width: 767px) {
+  .container {
+    min-width: 100vw;
+  }
+}
+/* Navbar Component */
+nav {
+  height: 90px;
+  padding: 30px 25px;
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  transition: 0.3s;
+}
+
+.toggle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  width: 130px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.dark {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.light {
+  color: #918e9b;
+  transition: 0.3s;
+}
+
+.toggle-switch {
+  width: 40px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.circle {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #222222;
+  border-radius: 50%;
+  top: 2px;
+  left: 22px;
+  transition: 0.3s;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+  background-color: #2b283a;
+}
+
+.toggle-checkbox:checked + .toggle-switch .circle {
+  background-color: #ffffff;
+  left: 2px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: auto;
+  color: #61dafb;
+}
+/* Navbar Component */
+
+/* MainContent Component */
+main {
+  background-color: #282d35;
+  padding-top: 60px;
+  padding-left: 25px;
+  height: calc(100% - 90px);
+  position: relative;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.heading {
+  margin-top: 13px;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+main > ul {
+  margin-top: 45px;
+  list-style: none;
+  width: 450px;
+}
+
+main > ul li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 15px;
+  padding-block: 10px;
+  position: relative;
+  max-width: 100%;
+}
+
+main > ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #61dafb;
+  position: absolute;
+  left: -30px;
+  top: 20px;
+  transform: translateY(-50%);
+}
+
+.watermark {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+/* MainContent Component */
