@@ -115,7 +115,8 @@ main {
 main > ul {
   margin-top: 45px;
   list-style: none;
-  width: 450px;
+  position: relative;
+  z-index: 1;
 }
 
 main > ul li {
