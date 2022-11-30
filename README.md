@@ -1,6 +1,6 @@
 # Toggle Dark & Light Mode Feature
 
-### Check it out adn enjoy toggling mode : [Toggle Mode Feature](https://dvloper-ibrahim.github.io/darklight-mode-toggle-feature/)
+### Check it out and enjoy toggling mode : [Toggle Mode Feature](https://dvloper-ibrahim.github.io/darklight-mode-toggle-feature/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
